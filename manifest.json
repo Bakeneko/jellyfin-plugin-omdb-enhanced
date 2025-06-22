@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "guid": "09b5086a-e404-420d-b661-2bc24143eaaa",
+        "name": "OMDb Enhanced",
+        "description": "Get metadata for movies and other video content from OMDb.\n",
+        "overview": "Get OMDb metadata",
+        "owner": "bakeneko",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "1.0.0.0",
+                "changelog": "- First release @bakeneko",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/Bakeneko/jellyfin-plugin-omdb-enhanced/releases/download/v1/omdb-enhanced_1.0.0.0.zip",
+                "checksum": "9bdd2a613af53f672e6f61242ecee632",
+                "timestamp": "2025-06-22T15:58:28Z"
+            }
+        ]
+    }
+]
