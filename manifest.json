@@ -8,6 +8,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "3.0.0.0",
+                "changelog": "- Update for Jellyfin 12.0.0",
+                "targetAbi": "12.0.0",
+                "sourceUrl": "https://github.com/Bakeneko/jellyfin-plugin-omdb-enhanced/releases/download/v3/omdb-enhanced_3.0.0.0.zip",
+                "checksum": "13f61246217ddf14e094633adadf22de",
+                "timestamp": "2026-09-09T12:09:48Z"
+            },
+            {
                 "version": "2.0.0.0",
                 "changelog": "- Update for Jellyfin 10.11.0",
                 "targetAbi": "10.11.0.0",
