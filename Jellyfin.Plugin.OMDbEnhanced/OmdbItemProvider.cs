@@ -218,7 +218,9 @@ namespace Jellyfin.Plugin.OMDbEnhanced
             var result = new MetadataResult<T>
             {
                 Item = new T(),
-                QueriedById = true
+                QueriedById = true,
+                // OMDb is not localized, everything it returns is English
+                ResultLanguage = "en"
             };
 
             var imdbId = info.GetProviderId(MetadataProvider.Imdb);
