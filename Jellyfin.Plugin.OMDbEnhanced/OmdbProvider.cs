@@ -138,6 +138,8 @@ namespace Jellyfin.Plugin.OMDbEnhanced
             }
 
             var item = itemResult.Item;
+            item.IndexNumber = episodeNumber;
+            item.ParentIndexNumber = seasonNumber;
 
             var seasonResult = await GetSeasonRootObject(seriesImdbId, seasonNumber, cancellationToken).ConfigureAwait(false);
 
