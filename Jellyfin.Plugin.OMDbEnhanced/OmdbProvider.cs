@@ -415,6 +415,7 @@ namespace Jellyfin.Plugin.OMDbEnhanced
             if (isEnglishRequested || Plugin.Instance.Configuration.UsePlotForNonEnglish)
             {
                 item.Overview = result.Plot;
+                item.OriginalLanguage = result.Language?.Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries).FirstOrDefault();
             }
 
             if (!Plugin.Instance.Configuration.CastAndCrew)
